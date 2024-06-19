@@ -1,3 +1,49 @@
-password = input(),
-print("it is a password manager")
-print("i  did not have done any work")
+pwd = input("What is the master password? ")
+
+def view():
+    pass
+
+def add():
+    pass
+
+
+while True:
+    mode = input("Would you like to add a new password or view existing ones (view / add) ? press q to quit. ").lower()
+    if mode == " q ":
+        break
+        
+    elif mode == "view":
+        pass
+
+    elif mode == "add":
+        pass
+    else:
+        print("Invalid Mode.")
+        continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
