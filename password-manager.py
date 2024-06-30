@@ -5,6 +5,7 @@ def view():
        for line in f.readlines():
            data = (line.rstrip())
            user , passw = data.split("|")
+           print(f"{user} | {passw}")
 
 def add():
     name = input("Account name: ")
@@ -27,7 +28,7 @@ while True:
     else:
         print("Invalid Mode.")
         continue
-input("")
+
 
 
 
