@@ -28,7 +28,7 @@ while True:
     else:
         print("Invalid Mode.")
         continue
-
+input()
 
 
 
